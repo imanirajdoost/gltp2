@@ -24,8 +24,8 @@ class FizzBuzzTest(TestCase):
     	self.fizzbuzz = FizzBuzz()
         self.assertEqual('Buzz',  self.fizzbuzz.convert(5))
         self.assertEqual('Buzz',  self.fizzbuzz.convert(10))
-        self.assertEqual('Buzz',  self.fizzbuzz.convert(15))
         self.assertEqual('Buzz',  self.fizzbuzz.convert(20))
+        self.assertEqual('Buzz',  self.fizzbuzz.convert(25))
         
     def test_returns_number_for_input_divisible_by_3_and_5(self):
     	self.fizzbuzz = FizzBuzz()
