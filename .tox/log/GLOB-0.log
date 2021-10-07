@@ -1,0 +1,33 @@
+action: GLOB, msg: packaging
+cwd: /adhome/i/ir/irajdoost/Bureau/gltp2
+cmd: /usr/bin/python3 setup.py sdist --formats=zip --dist-dir .tox/dist
+running sdist
+running egg_info
+writing fizzbuzz.egg-info/PKG-INFO
+writing dependency_links to fizzbuzz.egg-info/dependency_links.txt
+writing top-level names to fizzbuzz.egg-info/top_level.txt
+reading manifest file 'fizzbuzz.egg-info/SOURCES.txt'
+writing manifest file 'fizzbuzz.egg-info/SOURCES.txt'
+running check
+creating fizzbuzz-1.0.0
+creating fizzbuzz-1.0.0/fizzbuzz.egg-info
+copying files to fizzbuzz-1.0.0...
+copying README.md -> fizzbuzz-1.0.0
+copying setup.py -> fizzbuzz-1.0.0
+copying fizzbuzz.egg-info/PKG-INFO -> fizzbuzz-1.0.0/fizzbuzz.egg-info
+copying fizzbuzz.egg-info/SOURCES.txt -> fizzbuzz-1.0.0/fizzbuzz.egg-info
+copying fizzbuzz.egg-info/dependency_links.txt -> fizzbuzz-1.0.0/fizzbuzz.egg-info
+copying fizzbuzz.egg-info/top_level.txt -> fizzbuzz-1.0.0/fizzbuzz.egg-info
+Writing fizzbuzz-1.0.0/setup.cfg
+creating '.tox/dist/fizzbuzz-1.0.0.zip' and adding 'fizzbuzz-1.0.0' to it
+adding 'fizzbuzz-1.0.0'
+adding 'fizzbuzz-1.0.0/fizzbuzz.egg-info'
+adding 'fizzbuzz-1.0.0/README.md'
+adding 'fizzbuzz-1.0.0/setup.py'
+adding 'fizzbuzz-1.0.0/PKG-INFO'
+adding 'fizzbuzz-1.0.0/setup.cfg'
+adding 'fizzbuzz-1.0.0/fizzbuzz.egg-info/PKG-INFO'
+adding 'fizzbuzz-1.0.0/fizzbuzz.egg-info/SOURCES.txt'
+adding 'fizzbuzz-1.0.0/fizzbuzz.egg-info/dependency_links.txt'
+adding 'fizzbuzz-1.0.0/fizzbuzz.egg-info/top_level.txt'
+removing 'fizzbuzz-1.0.0' (and everything under it)

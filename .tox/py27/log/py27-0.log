@@ -1,0 +1,7 @@
+action: py27, msg: getenv
+cwd: /adhome/i/ir/irajdoost/Bureau/gltp2/.tox
+cmd: /usr/bin/python3 -m virtualenv --no-download --python /usr/bin/python2.7 py27
+created virtual environment CPython2.7.18.final.0-64 in 8920ms
+  creator CPython2Posix(dest=/adhome/i/ir/irajdoost/Bureau/gltp2/.tox/py27, clear=False, global=False)
+  seeder FromAppData(download=False, pip=latest, setuptools=latest, wheel=latest, pkg_resources=latest, via=copy, app_data_dir=/adhome/i/ir/irajdoost/.local/share/virtualenv/seed-app-data/v1.0.1.debian.1)
+  activators BashActivator,CShellActivator,FishActivator,PowerShellActivator,PythonActivator

@@ -1,0 +1,48 @@
+action: py27, msg: getenv
+cwd: /adhome/i/ir/irajdoost/Bureau/gltp2
+cmd: /adhome/i/ir/irajdoost/Bureau/gltp2/.tox/py27/bin/python -m pip install pytest
+DEPRECATION: Python 2.7 reached the end of its life on January 1st, 2020. Please upgrade your Python as Python 2.7 is no longer maintained. A future version of pip will drop support for Python 2.7. More details about Python 2 support in pip, can be found at https://pip.pypa.io/en/latest/development/release-process/#python-2-support
+Collecting pytest
+  Downloading pytest-4.6.11-py2.py3-none-any.whl (231 kB)
+Collecting attrs>=17.4.0
+  Downloading attrs-21.2.0-py2.py3-none-any.whl (53 kB)
+Collecting funcsigs>=1.0; python_version < "3.0"
+  Downloading funcsigs-1.0.2-py2.py3-none-any.whl (17 kB)
+Collecting packaging
+  Downloading packaging-20.9-py2.py3-none-any.whl (40 kB)
+Collecting six>=1.10.0
+  Downloading six-1.16.0-py2.py3-none-any.whl (11 kB)
+Collecting pluggy<1.0,>=0.12
+  Downloading pluggy-0.13.1-py2.py3-none-any.whl (18 kB)
+Collecting pathlib2>=2.2.0; python_version < "3.6"
+  Downloading pathlib2-2.3.6-py2.py3-none-any.whl (17 kB)
+Collecting atomicwrites>=1.0
+  Downloading atomicwrites-1.4.0-py2.py3-none-any.whl (6.8 kB)
+Collecting py>=1.5.0
+  Downloading py-1.10.0-py2.py3-none-any.whl (97 kB)
+Collecting more-itertools<6.0.0,>=4.0.0; python_version <= "2.7"
+  Downloading more_itertools-5.0.0-py2-none-any.whl (52 kB)
+Collecting wcwidth
+  Downloading wcwidth-0.2.5-py2.py3-none-any.whl (30 kB)
+Collecting importlib-metadata>=0.12; python_version < "3.8"
+  Downloading importlib_metadata-2.1.1-py2.py3-none-any.whl (10 kB)
+Collecting pyparsing>=2.0.2
+  Downloading pyparsing-2.4.7-py2.py3-none-any.whl (67 kB)
+Collecting scandir; python_version < "3.5"
+  Downloading scandir-1.10.0.tar.gz (33 kB)
+Collecting backports.functools-lru-cache>=1.2.1; python_version < "3.2"
+  Downloading backports.functools_lru_cache-1.6.4-py2.py3-none-any.whl (5.9 kB)
+Collecting configparser>=3.5; python_version < "3"
+  Downloading configparser-4.0.2-py2.py3-none-any.whl (22 kB)
+Collecting zipp>=0.5
+  Downloading zipp-1.2.0-py2.py3-none-any.whl (4.8 kB)
+Collecting contextlib2; python_version < "3"
+  Downloading contextlib2-0.6.0.post1-py2.py3-none-any.whl (9.8 kB)
+Building wheels for collected packages: scandir
+  Building wheel for scandir (setup.py): started
+  Building wheel for scandir (setup.py): finished with status 'done'
+  Created wheel for scandir: filename=scandir-1.10.0-cp27-cp27mu-linux_x86_64.whl size=11146 sha256=10d2e73d0c4adccd6b186425003fdf1b2ea42c0c133a71a4b25a359578c903bd
+  Stored in directory: /adhome/i/ir/irajdoost/.cache/pip/wheels/58/2c/26/52406f7d1f19bcc47a6fbd1037a5f293492f5cf1d58c539edb
+Successfully built scandir
+Installing collected packages: attrs, funcsigs, pyparsing, packaging, six, scandir, pathlib2, configparser, contextlib2, zipp, importlib-metadata, pluggy, atomicwrites, py, more-itertools, backports.functools-lru-cache, wcwidth, pytest
+Successfully installed atomicwrites-1.4.0 attrs-21.2.0 backports.functools-lru-cache-1.6.4 configparser-4.0.2 contextlib2-0.6.0.post1 funcsigs-1.0.2 importlib-metadata-2.1.1 more-itertools-5.0.0 packaging-20.9 pathlib2-2.3.6 pluggy-0.13.1 py-1.10.0 pyparsing-2.4.7 pytest-4.6.11 scandir-1.10.0 six-1.16.0 wcwidth-0.2.5 zipp-1.2.0
