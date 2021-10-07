@@ -1,0 +1,16 @@
+action: py38, msg: installpkg
+cwd: /adhome/i/ir/irajdoost/Bureau/gltp2
+cmd: /adhome/i/ir/irajdoost/Bureau/gltp2/.tox/py38/bin/python -m pip install --no-deps -U .tox/.tmp/package/1/fizzbuzz-1.0.0.zip
+Processing ./.tox/.tmp/package/1/fizzbuzz-1.0.0.zip
+Building wheels for collected packages: fizzbuzz
+  Building wheel for fizzbuzz (setup.py): started
+  Building wheel for fizzbuzz (setup.py): finished with status 'done'
+  Created wheel for fizzbuzz: filename=fizzbuzz-1.0.0-py3-none-any.whl size=1064 sha256=3c04df2900b314b511a77b01649fb7a3a99725152f963dc4f5378530d0dfb7e2
+  Stored in directory: /adhome/i/ir/irajdoost/.cache/pip/wheels/41/0d/76/98d6d2e3ff42f590bb9429c9b0c5f8e5d8a876fdbf0a80dada
+Successfully built fizzbuzz
+Installing collected packages: fizzbuzz
+  Attempting uninstall: fizzbuzz
+    Found existing installation: fizzbuzz 1.0.0
+    Not uninstalling fizzbuzz at /adhome/i/ir/irajdoost/Bureau/gltp2, outside environment /adhome/i/ir/irajdoost/Bureau/gltp2/.tox/py38
+    Can't uninstall 'fizzbuzz'. No files were found to uninstall.
+Successfully installed fizzbuzz-1.0.0
