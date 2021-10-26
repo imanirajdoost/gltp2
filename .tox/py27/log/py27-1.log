@@ -1,48 +1,56 @@
 action: py27, msg: getenv
-cwd: /adhome/i/ir/irajdoost/Bureau/gltp2
-cmd: /adhome/i/ir/irajdoost/Bureau/gltp2/.tox/py27/bin/python -m pip install pytest
+cwd: /home/iman/Bureau/tp3-genie/fizzbuzz
+cmd: /home/iman/Bureau/tp3-genie/fizzbuzz/.tox/py27/bin/python -m pip install pytest coverage flake8
 DEPRECATION: Python 2.7 reached the end of its life on January 1st, 2020. Please upgrade your Python as Python 2.7 is no longer maintained. A future version of pip will drop support for Python 2.7. More details about Python 2 support in pip, can be found at https://pip.pypa.io/en/latest/development/release-process/#python-2-support
 Collecting pytest
-  Downloading pytest-4.6.11-py2.py3-none-any.whl (231 kB)
-Collecting attrs>=17.4.0
-  Downloading attrs-21.2.0-py2.py3-none-any.whl (53 kB)
-Collecting funcsigs>=1.0; python_version < "3.0"
-  Downloading funcsigs-1.0.2-py2.py3-none-any.whl (17 kB)
+  Using cached pytest-4.6.11-py2.py3-none-any.whl (231 kB)
+Collecting coverage
+  Using cached coverage-5.5-cp27-cp27mu-manylinux2010_x86_64.whl (236 kB)
+Collecting flake8
+  Using cached flake8-3.9.2-py2.py3-none-any.whl (73 kB)
 Collecting packaging
-  Downloading packaging-20.9-py2.py3-none-any.whl (40 kB)
+  Using cached packaging-20.9-py2.py3-none-any.whl (40 kB)
 Collecting six>=1.10.0
-  Downloading six-1.16.0-py2.py3-none-any.whl (11 kB)
+  Using cached six-1.16.0-py2.py3-none-any.whl (11 kB)
 Collecting pluggy<1.0,>=0.12
-  Downloading pluggy-0.13.1-py2.py3-none-any.whl (18 kB)
-Collecting pathlib2>=2.2.0; python_version < "3.6"
-  Downloading pathlib2-2.3.6-py2.py3-none-any.whl (17 kB)
+  Using cached pluggy-0.13.1-py2.py3-none-any.whl (18 kB)
 Collecting atomicwrites>=1.0
-  Downloading atomicwrites-1.4.0-py2.py3-none-any.whl (6.8 kB)
+  Using cached atomicwrites-1.4.0-py2.py3-none-any.whl (6.8 kB)
 Collecting py>=1.5.0
-  Downloading py-1.10.0-py2.py3-none-any.whl (97 kB)
-Collecting more-itertools<6.0.0,>=4.0.0; python_version <= "2.7"
-  Downloading more_itertools-5.0.0-py2-none-any.whl (52 kB)
+  Using cached py-1.10.0-py2.py3-none-any.whl (97 kB)
 Collecting wcwidth
-  Downloading wcwidth-0.2.5-py2.py3-none-any.whl (30 kB)
+  Using cached wcwidth-0.2.5-py2.py3-none-any.whl (30 kB)
+Collecting attrs>=17.4.0
+  Using cached attrs-21.2.0-py2.py3-none-any.whl (53 kB)
+Collecting more-itertools<6.0.0,>=4.0.0; python_version <= "2.7"
+  Using cached more_itertools-5.0.0-py2-none-any.whl (52 kB)
+Collecting pathlib2>=2.2.0; python_version < "3.6"
+  Using cached pathlib2-2.3.6-py2.py3-none-any.whl (17 kB)
+Collecting funcsigs>=1.0; python_version < "3.0"
+  Using cached funcsigs-1.0.2-py2.py3-none-any.whl (17 kB)
 Collecting importlib-metadata>=0.12; python_version < "3.8"
-  Downloading importlib_metadata-2.1.1-py2.py3-none-any.whl (10 kB)
+  Using cached importlib_metadata-2.1.1-py2.py3-none-any.whl (10 kB)
+Collecting typing; python_version < "3.5"
+  Using cached typing-3.10.0.0-py2-none-any.whl (26 kB)
+Processing /home/iman/.cache/pip/wheels/c2/ea/a3/25af52265fad6418a74df0b8d9ca8b89e0b3735dbd4d0d3794/functools32-3.2.3.post2-py2-none-any.whl
+Collecting enum34; python_version < "3.4"
+  Using cached enum34-1.1.10-py2-none-any.whl (11 kB)
+Collecting pycodestyle<2.8.0,>=2.7.0
+  Using cached pycodestyle-2.7.0-py2.py3-none-any.whl (41 kB)
+Collecting mccabe<0.7.0,>=0.6.0
+  Using cached mccabe-0.6.1-py2.py3-none-any.whl (8.6 kB)
+Collecting pyflakes<2.4.0,>=2.3.0
+  Using cached pyflakes-2.3.1-py2.py3-none-any.whl (68 kB)
+Collecting configparser; python_version < "3.2"
+  Using cached configparser-4.0.2-py2.py3-none-any.whl (22 kB)
 Collecting pyparsing>=2.0.2
-  Downloading pyparsing-2.4.7-py2.py3-none-any.whl (67 kB)
-Collecting scandir; python_version < "3.5"
-  Downloading scandir-1.10.0.tar.gz (33 kB)
+  Using cached pyparsing-2.4.7-py2.py3-none-any.whl (67 kB)
 Collecting backports.functools-lru-cache>=1.2.1; python_version < "3.2"
-  Downloading backports.functools_lru_cache-1.6.4-py2.py3-none-any.whl (5.9 kB)
-Collecting configparser>=3.5; python_version < "3"
-  Downloading configparser-4.0.2-py2.py3-none-any.whl (22 kB)
+  Using cached backports.functools_lru_cache-1.6.4-py2.py3-none-any.whl (5.9 kB)
+Processing /home/iman/.cache/pip/wheels/58/2c/26/52406f7d1f19bcc47a6fbd1037a5f293492f5cf1d58c539edb/scandir-1.10.0-cp27-cp27mu-linux_x86_64.whl
 Collecting zipp>=0.5
-  Downloading zipp-1.2.0-py2.py3-none-any.whl (4.8 kB)
+  Using cached zipp-1.2.0-py2.py3-none-any.whl (4.8 kB)
 Collecting contextlib2; python_version < "3"
-  Downloading contextlib2-0.6.0.post1-py2.py3-none-any.whl (9.8 kB)
-Building wheels for collected packages: scandir
-  Building wheel for scandir (setup.py): started
-  Building wheel for scandir (setup.py): finished with status 'done'
-  Created wheel for scandir: filename=scandir-1.10.0-cp27-cp27mu-linux_x86_64.whl size=11146 sha256=10d2e73d0c4adccd6b186425003fdf1b2ea42c0c133a71a4b25a359578c903bd
-  Stored in directory: /adhome/i/ir/irajdoost/.cache/pip/wheels/58/2c/26/52406f7d1f19bcc47a6fbd1037a5f293492f5cf1d58c539edb
-Successfully built scandir
-Installing collected packages: attrs, funcsigs, pyparsing, packaging, six, scandir, pathlib2, configparser, contextlib2, zipp, importlib-metadata, pluggy, atomicwrites, py, more-itertools, backports.functools-lru-cache, wcwidth, pytest
-Successfully installed atomicwrites-1.4.0 attrs-21.2.0 backports.functools-lru-cache-1.6.4 configparser-4.0.2 contextlib2-0.6.0.post1 funcsigs-1.0.2 importlib-metadata-2.1.1 more-itertools-5.0.0 packaging-20.9 pathlib2-2.3.6 pluggy-0.13.1 py-1.10.0 pyparsing-2.4.7 pytest-4.6.11 scandir-1.10.0 six-1.16.0 wcwidth-0.2.5 zipp-1.2.0
+  Using cached contextlib2-0.6.0.post1-py2.py3-none-any.whl (9.8 kB)
+Installing collected packages: pyparsing, packaging, six, scandir, pathlib2, configparser, contextlib2, zipp, importlib-metadata, pluggy, atomicwrites, py, backports.functools-lru-cache, wcwidth, attrs, more-itertools, funcsigs, pytest, coverage, typing, functools32, enum34, pycodestyle, mccabe, pyflakes, flake8
+Successfully installed atomicwrites-1.4.0 attrs-21.2.0 backports.functools-lru-cache-1.6.4 configparser-4.0.2 contextlib2-0.6.0.post1 coverage-5.5 enum34-1.1.10 flake8-3.9.2 funcsigs-1.0.2 functools32-3.2.3.post2 importlib-metadata-2.1.1 mccabe-0.6.1 more-itertools-5.0.0 packaging-20.9 pathlib2-2.3.6 pluggy-0.13.1 py-1.10.0 pycodestyle-2.7.0 pyflakes-2.3.1 pyparsing-2.4.7 pytest-4.6.11 scandir-1.10.0 six-1.16.0 typing-3.10.0.0 wcwidth-0.2.5 zipp-1.2.0

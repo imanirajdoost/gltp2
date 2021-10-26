@@ -1,0 +1,39 @@
+# Vous n'aurez à priori pas besoin des droits d'administration pour cet exo.
+# Cependant, cela peut être utile si, par exemple, vous devez installer sur
+# votre serveur d'intégration continue des paquets supplémentaires avec apt.
+# Pas d'inquiétude, les serveurs d'intégration continue proposés par des
+# services comme Travis CI sont en fait des machines virtuelles qui n'existent
+# que le temps de construire votre application. Donc, si vous "cassez" quelque
+# chose avec vos droits admin, ça ne gênera que votre build, et aucun autre
+# utilisateur du service. Vous n'aurez qu'à corriger votre configuration et
+# pusher vos modifications pour retenter votre chance avec une VM neuve !
+sudo: false
+
+# Votre projet est en python, il vous faut donc du python sur votre serveur.
+language: python
+# Grâce à un serveur d'intégration continue, vous pouvez builder votre projet
+# dans différents environnements, même si ceux-ci ne sont pas présent sur
+# votre machine de développement.
+# Par exemple, vous pouvez demander à ce que votre serveur ait les 3 versions
+# de python suivantes directement installer et, en modifiant tox.ini comme ça ...
+#   envlist = py{27,35,36},flake8
+# ... lancer 3 builds différents dans 3 environnements python différents, afin
+# que votre code soit compatible avec un maximum d'utilisateurs différents.
+python:
+  - "2.7"
+  - "3.5"
+  - "3.6"
+
+# Avant de builder, Travis CI vous laisse la possibilité de configurer/installer
+# des composants supplémentaires sur votre serveur d'intégration continue.
+# Pour cet exercice, il vous faudra au minimum installer tox.
+install: pip install tox
+
+# Cette dernière directive décrit les commandes à lancer pour builder.
+# Puisque tous les détails sont gérés dans votre tox.ini, vous pouvez vous
+# contenter de lancer seulement tox.
+# C'est l'avantage d'utiliser un tel outil.
+# Si vous voulez tout builder à la main (sans tox ou autre outil similaire),
+# il vous faut mettre vos différentes instructions ici
+# (ou éventuellement écrire un script dédié).
+script: tox

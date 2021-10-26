@@ -1,16 +1,16 @@
 action: py38, msg: installpkg
-cwd: /adhome/i/ir/irajdoost/Bureau/gltp2
-cmd: /adhome/i/ir/irajdoost/Bureau/gltp2/.tox/py38/bin/python -m pip install --no-deps -U .tox/.tmp/package/1/fizzbuzz-1.0.0.zip
+cwd: /home/iman/Bureau/tp3-genie/fizzbuzz
+cmd: /home/iman/Bureau/tp3-genie/fizzbuzz/.tox/py38/bin/python -m pip install --no-deps -U .tox/.tmp/package/1/fizzbuzz-1.0.0.zip
 Processing ./.tox/.tmp/package/1/fizzbuzz-1.0.0.zip
 Building wheels for collected packages: fizzbuzz
   Building wheel for fizzbuzz (setup.py): started
   Building wheel for fizzbuzz (setup.py): finished with status 'done'
-  Created wheel for fizzbuzz: filename=fizzbuzz-1.0.0-py3-none-any.whl size=1057 sha256=0578f859a2f9bb712a57491ede0c08e2dc1a65f140feaeeb38a6293e4efd3c3f
-  Stored in directory: /adhome/i/ir/irajdoost/.cache/pip/wheels/41/0d/76/98d6d2e3ff42f590bb9429c9b0c5f8e5d8a876fdbf0a80dada
+  Created wheel for fizzbuzz: filename=fizzbuzz-1.0.0-py3-none-any.whl size=1064 sha256=1b30229bfce73e1d9c36940322a2c9ff174d4d3b7c4baba5cfcc5be1e34227a4
+  Stored in directory: /home/iman/.cache/pip/wheels/f7/81/ef/7462725cb0425eff7278620a7378bcb9b097b5838052a406e4
 Successfully built fizzbuzz
 Installing collected packages: fizzbuzz
   Attempting uninstall: fizzbuzz
     Found existing installation: fizzbuzz 1.0.0
-    Not uninstalling fizzbuzz at /adhome/i/ir/irajdoost/Bureau/gltp2, outside environment /adhome/i/ir/irajdoost/Bureau/gltp2/.tox/py38
+    Not uninstalling fizzbuzz at /home/iman/Bureau/tp3-genie/fizzbuzz, outside environment /home/iman/Bureau/tp3-genie/fizzbuzz/.tox/py38
     Can't uninstall 'fizzbuzz'. No files were found to uninstall.
 Successfully installed fizzbuzz-1.0.0

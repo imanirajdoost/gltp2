@@ -1,5 +1,5 @@
 action: GLOB, msg: packaging
-cwd: /adhome/i/ir/irajdoost/Bureau/gltp2
+cwd: /home/iman/Bureau/tp3-genie/fizzbuzz
 cmd: /usr/bin/python3 setup.py sdist --formats=zip --dist-dir .tox/dist
 running sdist
 running egg_info
@@ -23,11 +23,11 @@ creating '.tox/dist/fizzbuzz-1.0.0.zip' and adding 'fizzbuzz-1.0.0' to it
 adding 'fizzbuzz-1.0.0'
 adding 'fizzbuzz-1.0.0/fizzbuzz.egg-info'
 adding 'fizzbuzz-1.0.0/README.md'
+adding 'fizzbuzz-1.0.0/setup.cfg'
 adding 'fizzbuzz-1.0.0/setup.py'
 adding 'fizzbuzz-1.0.0/PKG-INFO'
-adding 'fizzbuzz-1.0.0/setup.cfg'
-adding 'fizzbuzz-1.0.0/fizzbuzz.egg-info/PKG-INFO'
 adding 'fizzbuzz-1.0.0/fizzbuzz.egg-info/SOURCES.txt'
 adding 'fizzbuzz-1.0.0/fizzbuzz.egg-info/dependency_links.txt'
+adding 'fizzbuzz-1.0.0/fizzbuzz.egg-info/PKG-INFO'
 adding 'fizzbuzz-1.0.0/fizzbuzz.egg-info/top_level.txt'
 removing 'fizzbuzz-1.0.0' (and everything under it)

@@ -46,7 +46,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV='/adhome/i/ir/irajdoost/Bureau/gltp2/.tox/py38'
+VIRTUAL_ENV='/home/iman/Bureau/tp3-genie/fizzbuzz/.tox/py38'
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"

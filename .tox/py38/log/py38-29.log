@@ -1,12 +1,17 @@
 action: py38, msg: envreport
-cwd: /adhome/i/ir/irajdoost/Bureau/gltp2
-cmd: /adhome/i/ir/irajdoost/Bureau/gltp2/.tox/py38/bin/python -m pip freeze
+cwd: /home/iman/Bureau/tp3-genie/fizzbuzz
+cmd: /home/iman/Bureau/tp3-genie/fizzbuzz/.tox/py38/bin/python -m pip freeze
 attrs==21.2.0
+coverage==6.0.2
 fizzbuzz==1.0.0
+flake8==4.0.1
 iniconfig==1.1.1
+mccabe==0.6.1
 packaging==21.0
 pluggy==1.0.0
 py==1.10.0
-pyparsing==2.4.7
+pycodestyle==2.8.0
+pyflakes==2.4.0
+pyparsing==3.0.1
 pytest==6.2.5
 toml==0.10.2

@@ -1,23 +1,31 @@
 action: py27, msg: envreport
-cwd: /adhome/i/ir/irajdoost/Bureau/gltp2
-cmd: /adhome/i/ir/irajdoost/Bureau/gltp2/.tox/py27/bin/python -m pip freeze
+cwd: /home/iman/Bureau/tp3-genie/fizzbuzz
+cmd: /home/iman/Bureau/tp3-genie/fizzbuzz/.tox/py27/bin/python -m pip freeze
 DEPRECATION: Python 2.7 reached the end of its life on January 1st, 2020. Please upgrade your Python as Python 2.7 is no longer maintained. A future version of pip will drop support for Python 2.7. More details about Python 2 support in pip, can be found at https://pip.pypa.io/en/latest/development/release-process/#python-2-support
 atomicwrites==1.4.0
 attrs==21.2.0
 backports.functools-lru-cache==1.6.4
 configparser==4.0.2
 contextlib2==0.6.0.post1
+coverage==5.5
+enum34==1.1.10
 fizzbuzz==1.0.0
+flake8==3.9.2
 funcsigs==1.0.2
+functools32==3.2.3.post2
 importlib-metadata==2.1.1
+mccabe==0.6.1
 more-itertools==5.0.0
 packaging==20.9
 pathlib2==2.3.6
 pluggy==0.13.1
 py==1.10.0
+pycodestyle==2.7.0
+pyflakes==2.3.1
 pyparsing==2.4.7
 pytest==4.6.11
 scandir==1.10.0
 six==1.16.0
+typing==3.10.0.0
 wcwidth==0.2.5
 zipp==1.2.0

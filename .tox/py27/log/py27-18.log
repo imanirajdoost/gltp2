@@ -1,17 +1,17 @@
 action: py27, msg: installpkg
-cwd: /adhome/i/ir/irajdoost/Bureau/gltp2
-cmd: /adhome/i/ir/irajdoost/Bureau/gltp2/.tox/py27/bin/python -m pip install --no-deps -U .tox/.tmp/package/1/fizzbuzz-1.0.0.zip
+cwd: /home/iman/Bureau/tp3-genie/fizzbuzz
+cmd: /home/iman/Bureau/tp3-genie/fizzbuzz/.tox/py27/bin/python -m pip install --no-deps -U .tox/.tmp/package/1/fizzbuzz-1.0.0.zip
 DEPRECATION: Python 2.7 reached the end of its life on January 1st, 2020. Please upgrade your Python as Python 2.7 is no longer maintained. A future version of pip will drop support for Python 2.7. More details about Python 2 support in pip, can be found at https://pip.pypa.io/en/latest/development/release-process/#python-2-support
 Processing ./.tox/.tmp/package/1/fizzbuzz-1.0.0.zip
 Building wheels for collected packages: fizzbuzz
   Building wheel for fizzbuzz (setup.py): started
   Building wheel for fizzbuzz (setup.py): finished with status 'done'
-  Created wheel for fizzbuzz: filename=fizzbuzz-1.0.0-py2-none-any.whl size=1065 sha256=ccd7c01ee29b3ead5fe2b3d7cd378de344fabcf53762a6e689604fc46d509722
-  Stored in directory: /adhome/i/ir/irajdoost/.cache/pip/wheels/3c/69/43/c5716e1c98a7865a7478742b12b2847af0c4981d956dc79ede
+  Created wheel for fizzbuzz: filename=fizzbuzz-1.0.0-py2-none-any.whl size=1065 sha256=4701e21d41bb1a7f980f661b499cb53c26f671cd4ac5664e8987f8d04b5cf630
+  Stored in directory: /home/iman/.cache/pip/wheels/35/45/75/e6d1291af7e6dc873152abb8815b60dd86f50d56bad151cf5d
 Successfully built fizzbuzz
 Installing collected packages: fizzbuzz
   Attempting uninstall: fizzbuzz
     Found existing installation: fizzbuzz 1.0.0
-    Not uninstalling fizzbuzz at /adhome/i/ir/irajdoost/Bureau/gltp2, outside environment /adhome/i/ir/irajdoost/Bureau/gltp2/.tox/py27
+    Not uninstalling fizzbuzz at /home/iman/Bureau/tp3-genie/fizzbuzz, outside environment /home/iman/Bureau/tp3-genie/fizzbuzz/.tox/py27
     Can't uninstall 'fizzbuzz'. No files were found to uninstall.
 Successfully installed fizzbuzz-1.0.0
